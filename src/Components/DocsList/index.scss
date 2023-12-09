@@ -1,0 +1,32 @@
+.docs-main{
+    display : flex ;
+    gap : 10px;
+    justify-content: center;
+    .doc-card {
+        margin-top : 20px ;
+        
+        width : 70% ;
+        width: 200px;
+        height : 250px ;
+        cursor : pointer ;
+       border: 1px solid #cacaca;
+        position: relative;
+    }
+    .doc-content{
+        font-size: 12px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .doc-title {
+        position: absolute;
+        bottom: 0px;
+       text-align: center;
+        width: 100%;
+        left : 50% ;
+        font-size: 15px;
+        transform : translate(-50%,-50%) ;
+      }
+}
+
+
+
